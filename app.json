@@ -27,7 +27,9 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "baseUrl": "/newKeijiban.project-sns"  // ←リポジトリ名を入れる
+      
     },
     "plugins": [
       "expo-router"
@@ -37,3 +39,4 @@
     }
   }
 }
+
